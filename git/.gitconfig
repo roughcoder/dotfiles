@@ -1,0 +1,42 @@
+[user]
+	name = Neil
+	email = neil@roughcoder.com
+[http]
+	postBuffer = 30M
+[alias]
+	a = add
+	b = branch --sort=-committerdate
+	bm = branch --merged
+	bnm = branch --no-merged
+	c = commit --verbose
+	ca = commit --verbose --amend
+	ce = commit --verbose --amend --no-edit
+	co = checkout
+	d = diff
+	dn = diff --name-only
+	ds = diff --staged
+	du = count-objects --verbose --human-readable
+	f = fetch --all
+	h = help
+	hc = help config
+	l = log
+	lo = log --pretty=oneline
+	lof = log --pretty=fuller
+	lol = log --graph --pretty=oneline
+	m = merge
+	nuke = !git clean -fdx && git submodule foreach git clean -fdx
+	p = pull
+	ps = push
+	psf = push --force-with-lease
+	r = reset
+	rh = reset --hard
+	ru = reset @{u}
+	rhu = reset --hard @{u}
+	rb = rebase
+	rbi = rebase --interactive
+	s = status
+	sh = show
+	shepherd = lol --perl-regexp --committer=\"Andrew Schwartzmeyer\" --author=\"^(?!Andrew Schwartzmeyer).*$\"
+	sub = submodule
+	y = cherry-pick
+	z = stash
