@@ -22,3 +22,6 @@ alias c='clear'
 # apps
 alias gt='gittower $(git rev-parse --show-toplevel)'
 alias edit='idea $(git rev-parse --show-toplevel)'
+
+# the fuck
+eval $(thefuck --alias)
