@@ -24,9 +24,13 @@ the following tools installed.
 
 ## install
 
-install gnu stow
+install gnu stow on a mac
 ```bash
 brew install stow
+```
+installing on ubunto
+```
+sudo apt-get install stow
 ```
 
 clone repo into your home folder
