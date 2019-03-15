@@ -16,11 +16,22 @@
 the following tools installed.
 
 - [brew](https://brew.sh)
-- [iterm 2](https://www.iterm2.com/)
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
 - [nvm](https://github.com/creationix/nvm)
-- [the fuck](https://github.com/nvbn/thefuck)
-- [yarn](https://yarnpkg.com/en/)
+- [iterm 2](https://www.iterm2.com/)
+
+## install via brew
+
+Install Apps
+
+```
+brew cask install google-chrome visual-studio-code dashlane docker postman iterm2 spectacle slack authy spotify discord alfred charles sketch firefox
+```
+
+Install Tools
+
+```
+brew install thefuck z stow yarn docker docker-compose git
+```
 
 ## install
 
