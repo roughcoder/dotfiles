@@ -47,10 +47,10 @@ plugins=(
     history
     docker
     aws
-    tmux
     zsh-syntax-highlighting
     git-open
     zsh-autosuggestions
+    zsh-z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -85,4 +85,4 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.bash_profile
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
